@@ -1,9 +1,24 @@
 fn main() {
-        println!("Hello, world!");
-    
-        /* ######This section contains about ## Variable and scaler data types */
-    
-        
+        /* ######This section contains about ## Variables and Scalar Data Types */
+        println!("\n\nStart Variables and Scalar Data Types \n\n");
+
+        let x = 15; 
+        println!("The value of variable is {}", x);
+        println!("The maximum value of i8 is {}", std::i8::MAX);
+        println!("The maximum value of i32 is {}", std::i32::MAX);
+        println!("The maximum value of u32 is {}", std::u32::MAX);
+        println!("The maximum value of f32 is {}", std::f32::MAX);
+
+        //Char Data types
+        let c1:char = 'a';
+        let c2:char = '3';
+        let c3:char = '+';
+        let c4:char = '\u{288A}';
+        let c5: char = '\"';
+
+        println!("The value of c1 = {}, c2 is {}, c3 is {}, c4 is {}, c5 is {} ", c1, c2, c3, c4, c5);
+
+        println!("\n\nEnd Variables and Scalar Data Types \n\n");
         /* ######This section contains about ## comment and print */
         print!("Hello World"); // This will print  but it will not move the cursor to next line.
         print!("Hello World 1"); // This will be printing in same line as previous one as previous print did not have ln
